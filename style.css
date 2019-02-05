@@ -1,0 +1,196 @@
+body{
+    background-color: rgb(207,226,243);
+}
+
+.nav-link{
+    color:rgb(166,77,121);
+}
+
+
+
+.title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 75px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color:rgb(28,69,135);
+ 
+    
+}
+
+.meaning{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color:rgb(166,77,121);
+    
+}
+
+.logo{
+    
+    display:flex;
+    justify-content:center;
+}
+
+.logo_image:hover{
+    transform: scale(1.1) /* rotate(180deg) */
+        
+    
+}
+
+
+
+.chart{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.pie_block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+        }
+
+.pie_title{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color:rgb(28,69,135);
+    width:500px;
+    text-align: center;
+}
+.pie_chart{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.circles_block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+ }
+
+.circles_title{
+    font-size: 20px;
+    font-family: sa;-serif;
+    font-weight: 800;
+    color:rgb(28,69,135);
+    width:500px;
+    text-align: center;
+ }
+
+.bottom_section{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.new_member{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color:rgb(28,69,135);
+    text-align: left;
+    width:300px; 
+    /* margin-top: 200px; */
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.new_member_question{
+    color:rgb(166,77,121);
+    text-align: left;
+    width:400px;
+    
+}
+
+input{
+width:50%;
+background-color:#F3F9FE;
+font-size: 15px;
+color: rgb(28,69,135);
+   }
+input[type=email]{
+width: 75%;
+}
+
+input[type=submit]{
+width:25%;
+background-color: #A3C2DE;
+}
+
+
+.athennian{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: left;
+    color:black;
+    /* margin:100px 50px; */
+    margin-right: 50px;
+}
+
+.first_client {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color:rgb(166,77,121);
+    text-align: left;
+    width:300px;
+}
+
+.athennian_title{
+    text-align: left;
+    
+}
+
+.athennian_text{
+    font-size: 15px;
+    width: 300px;
+    text-align: left;
+    }
+
+span{
+
+font-weight: bolder;
+    
+}
+
+.main_body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.logo_two{
+    margin-top: 150px;
+    
+}
+
+.who_we_are{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color:rgb(28,69,135);
+    text-align: justify;
+    width: 600px;
+   
+}
+.names{
+    color: rgb(166,77,121);
+}
+
+.group_photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+ 
